@@ -16,8 +16,8 @@ export default function Home() {
               <div className="space-y-4">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">ELENA MODA</h1>
                 <p className="max-w-[600px] text-gray-500 md:text-xl">
-                  Crafting timeless elegance through innovative design. Explore the vast collection of contemporary fashion
-                  pieces that blend artistry with functionality.
+                  Crafting timeless elegance through innovative design. Explore my immense collection of contemporary
+                  fashion pieces that blend artistry with functionality.
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Link href="/portfolio">
@@ -35,7 +35,7 @@ export default function Home() {
               </div>
               <div className="relative aspect-square overflow-hidden rounded-xl lg:aspect-[4/3]">
                 <Image
-                  src="/placeholder.svg?height=800&width=800"
+                  src="/elena-moda-hero.png"
                   alt="Featured Design"
                   fill
                   className="object-cover"
@@ -90,7 +90,7 @@ export default function Home() {
                 <div className="space-y-4">
                   <div className="relative aspect-square overflow-hidden rounded-xl">
                     <Image
-                      src="/placeholder.svg?height=400&width=400&text=Detail%201"
+                      src="/elena-moda-hero.png"
                       alt="Design Detail"
                       fill
                       className="object-cover"
@@ -99,7 +99,7 @@ export default function Home() {
                   </div>
                   <div className="relative aspect-square overflow-hidden rounded-xl">
                     <Image
-                      src="/placeholder.svg?height=400&width=400&text=Detail%202"
+                      src="/elena-moda-hero.png"
                       alt="Design Detail"
                       fill
                       className="object-cover"
@@ -109,7 +109,7 @@ export default function Home() {
                 </div>
                 <div className="relative aspect-[9/16] overflow-hidden rounded-xl">
                   <Image
-                    src="/placeholder.svg?height=800&width=450&text=Process"
+                    src="/elena-moda-hero.png"
                     alt="Design Process"
                     fill
                     className="object-cover"
@@ -156,7 +156,7 @@ export default function Home() {
               </div>
               <div className="relative aspect-video overflow-hidden rounded-xl">
                 <Image
-                  src="/placeholder.svg?height=600&width=1000&text=Collection%20Video"
+                  src="/elena-moda-hero.png"
                   alt="Collection Video"
                   fill
                   className="object-cover"
