@@ -127,7 +127,7 @@ export default function Home() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Client Testimonials</h2>
                 <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed">
-                  What fashion industry professionals and clients say about Elena Moda designs.
+                  What fashion industry people and clients say about Elena Moda designs.
                 </p>
               </div>
             </div>
