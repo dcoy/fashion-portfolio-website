@@ -16,7 +16,7 @@ export default function Home() {
               <div className="space-y-4">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">ELENA MODA</h1>
                 <p className="max-w-[600px] text-gray-500 md:text-xl">
-                  Crafting timeless elegance through innovative design. Explore my collection of contemporary fashion
+                  Crafting timeless elegance through innovative design. Explore the vast collection of contemporary fashion
                   pieces that blend artistry with functionality.
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
