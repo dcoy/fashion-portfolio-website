@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "title": "Elena Moda - Portafolio de Diseñadora de Moda",
+    "description": "Sitio web de portafolio que muestra los diseños de moda de Elena Moda"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "portfolio": "Portafolio",
+    "colorPalettes": "Paletas de Colores",
+    "blueprints": "Planos Técnicos",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "home": {
+    "hero": {
+      "description": "Creando elegancia atemporal a través del diseño innovador. Explora mi inmensa colección de piezas de moda contemporánea que combinan el arte con la funcionalidad.",
+      "viewCollection": "Ver Colección",
+      "aboutDesigner": "Sobre la Diseñadora",
+      "featuredAlt": "Diseño Destacado"
+    },
+    "featured": {
+      "title": "Diseños Destacados",
+      "description": "Una selección curada de mi trabajo más reciente, mostrando innovación y artesanía.",
+      "viewAll": "Ver Todos los Diseños"
+    },
+    "philosophy": {
+      "title": "Filosofía de Diseño",
+      "description": "Mi trabajo se guía por un compromiso con las prácticas sostenibles y el diseño atemporal. Cada pieza se crea con atención al detalle y un enfoque en la artesanía de calidad.",
+      "learnMore": "Saber Más",
+      "detailAlt1": "Detalle de Diseño",
+      "detailAlt2": "Detalle de Diseño",
+      "processAlt": "Proceso de Diseño"
+    },
+    "testimonials": {
+      "title": "Testimonios de Clientes",
+      "description": "Lo que dicen las personas de la industria de la moda y los clientes sobre los diseños de Elena Moda."
+    },
+    "latest": {
+      "title": "Última Colección",
+      "description": "Explora las nuevas incorporaciones al portafolio de Elena Moda, con diseños innovadores y materiales sostenibles.",
+      "exploreCollection": "Explorar Colección",
+      "videoAlt": "Video de la Colección"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Elena Moda. Todos los derechos reservados."
+  }
+}
+

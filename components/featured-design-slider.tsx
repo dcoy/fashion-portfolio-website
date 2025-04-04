@@ -6,7 +6,7 @@ import Link from "next/link"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-export default function FeaturedDesignSlider() {
+export default function FeaturedDesignSlider({ locale, dictionary }: { locale: string; dictionary: any }) {
   const featuredDesigns = [
     {
       id: 1,
@@ -115,7 +115,7 @@ export default function FeaturedDesignSlider() {
         >
           {featuredDesigns.map((design) => (
             <div key={design.id} className="px-2" style={{ width: `${100 / totalSlides}%` }}>
-              <Link href="/portfolio" className="group relative block overflow-hidden rounded-lg">
+              <Link href={`/${locale}/portfolio`} className="group relative block overflow-hidden rounded-lg">
                 <div className="aspect-[3/4] w-full relative">
                   <Image
                     src={design.image || "/placeholder.svg"}

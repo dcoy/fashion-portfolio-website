@@ -6,7 +6,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { ChevronLeft, ChevronRight, Quote } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-export default function TestimonialCarousel() {
+export default function TestimonialCarousel({ locale, dictionary }: { locale: string; dictionary: any }) {
   const testimonials = [
     {
       id: 1,
@@ -44,22 +44,22 @@ export default function TestimonialCarousel() {
 
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isAnimating, setIsAnimating] = useState(false)
-  const itemsToShow = useWindowSize() >= 1024 ? 2 : 1
+  const [windowWidth, setWindowWidth] = useState(1024)
 
-  function useWindowSize() {
-    const [windowWidth, setWindowWidth] = useState(typeof window !== "undefined" ? window.innerWidth : 1024)
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setWindowWidth(window.innerWidth)
 
-    useEffect(() => {
       function handleResize() {
         setWindowWidth(window.innerWidth)
       }
 
       window.addEventListener("resize", handleResize)
       return () => window.removeEventListener("resize", handleResize)
-    }, [])
+    }
+  }, [])
 
-    return windowWidth
-  }
+  const itemsToShow = windowWidth >= 1024 ? 2 : 1
 
   const totalTestimonials = testimonials.length
   const maxIndex = totalTestimonials - itemsToShow

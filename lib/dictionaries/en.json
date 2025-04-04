@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "title": "Elena Moda - Fashion Designer Portfolio",
+    "description": "Portfolio website showcasing the fashion designs of Elena Moda"
+  },
+  "navigation": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "colorPalettes": "Color Palettes",
+    "blueprints": "Blueprints",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "description": "Crafting timeless elegance through innovative design. Explore my immense collection of contemporary fashion pieces that blend artistry with functionality.",
+      "viewCollection": "View Collection",
+      "aboutDesigner": "About the Designer",
+      "featuredAlt": "Featured Design"
+    },
+    "featured": {
+      "title": "Featured Designs",
+      "description": "A curated selection of my latest work, showcasing innovation and craftsmanship.",
+      "viewAll": "View All Designs"
+    },
+    "philosophy": {
+      "title": "Design Philosophy",
+      "description": "My work is guided by a commitment to sustainable practices and timeless design. Each piece is created with attention to detail and a focus on quality craftsmanship.",
+      "learnMore": "Learn More",
+      "detailAlt1": "Design Detail",
+      "detailAlt2": "Design Detail",
+      "processAlt": "Design Process"
+    },
+    "testimonials": {
+      "title": "Client Testimonials",
+      "description": "What fashion industry people and clients say about Elena Moda designs."
+    },
+    "latest": {
+      "title": "Latest Collection",
+      "description": "Explore the newest additions to the Elena Moda portfolio, featuring innovative designs and sustainable materials.",
+      "exploreCollection": "Explore Collection",
+      "videoAlt": "Collection Video"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Elena Moda. All rights reserved."
+  }
+}
+
