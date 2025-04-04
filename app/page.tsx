@@ -16,7 +16,7 @@ export default function Home() {
               <div className="space-y-4">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">ELENA MODA</h1>
                 <p className="max-w-[600px] text-gray-500 md:text-xl">
-                  Crafting timeless elegance through innovative design. Explore my immense collection of contemporary
+                  Crafting timeless elegance through innovative design. Explore my extensive collection of contemporary
                   fashion pieces that blend artistry with functionality.
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -127,7 +127,7 @@ export default function Home() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Client Testimonials</h2>
                 <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed">
-                  What fashion industry people and clients say about Elena Moda designs.
+                  What fashion industry professionals and clients say about Elena Moda designs.
                 </p>
               </div>
             </div>

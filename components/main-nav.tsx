@@ -1,57 +1,44 @@
 import Link from "next/link"
 
-export function MainNav({ locale, dictionary }: { locale: string; dictionary?: any }) {
-  // Default navigation items if dictionary is undefined
-  const nav = dictionary?.navigation || {
-    home: "Home",
-    portfolio: "Portfolio",
-    colorPalettes: "Color Palettes",
-    blueprints: "Blueprints",
-    about: "About",
-    contact: "Contact",
-  }
-
+export function MainNav() {
   return (
     <div className="flex gap-6 md:gap-10">
-      <Link href={`/${locale}`} className="flex items-center space-x-2">
+      <Link href="/" className="flex items-center space-x-2">
         <span className="inline-block font-bold">ELENA MODA</span>
       </Link>
       <nav className="hidden md:flex gap-6">
-        <Link
-          href={`/${locale}`}
-          className="flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
-        >
-          {nav.home}
+        <Link href="/" className="flex items-center text-sm font-medium text-muted-foreground hover:text-foreground">
+          Home
         </Link>
         <Link
-          href={`/${locale}/portfolio`}
+          href="/portfolio"
           className="flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
         >
-          {nav.portfolio}
+          Portfolio
         </Link>
         <Link
-          href={`/${locale}/color-palettes`}
+          href="/color-palettes"
           className="flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
         >
-          {nav.colorPalettes}
+          Color Palettes
         </Link>
         <Link
-          href={`/${locale}/blueprints`}
+          href="/blueprints"
           className="flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
         >
-          {nav.blueprints}
+          Blueprints
         </Link>
         <Link
-          href={`/${locale}/about`}
+          href="/about"
           className="flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
         >
-          {nav.about}
+          About
         </Link>
         <Link
-          href={`/${locale}/contact`}
+          href="/contact"
           className="flex items-center text-sm font-medium text-muted-foreground hover:text-foreground"
         >
-          {nav.contact}
+          Contact
         </Link>
       </nav>
     </div>
